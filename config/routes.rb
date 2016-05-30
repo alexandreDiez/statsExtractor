@@ -1,5 +1,8 @@
 StatsScrapper::Application.routes.draw do
-  get "scrapper/extract"
+
+
+  root  to: "scrapper#extract"
+  #get "scrapper/extract"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

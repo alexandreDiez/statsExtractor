@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails stats_scrapper: development" uuid="675b7309-a8b5-4c0a-a8d3-87e561fb7343" />
+    <data-source name="Rails stats_scrapper: test" uuid="3bc0ae3e-2b10-4c92-96db-133793ff4682" />
+  </component>
+</project>

@@ -1,3 +1,31 @@
 <h1>Stats Extractor</h1>
 
 <p>Titre du site : <%= @titre %></p>
+
+
+<h1>Player info </h1>
+<div id="playerInfo">
+    <ul>
+      <% @infos.each do |i| %>
+          <li> <%= i %> </li>
+      <%end%>
+    </ul>
+</div>
+
+<h1> Stats leaders</h1>
+<table>
+    <% @final.each do |player| %>
+      <tr>
+        <% player.each do |stat| %>
+            <td> <%= stat %></td>
+        <% end %>
+      </tr>
+    <% end %>
+</table>
+
+
+<!-- <p> Rows : <# @rows.each do |r| %></p>
+           <li><# r %></li>
+
+           < end %>
+<p> Nom : < @name %> </p> -->
